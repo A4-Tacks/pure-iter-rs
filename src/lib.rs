@@ -1,3 +1,4 @@
+#![doc = include_str!("../README.md")]
 #![no_std]
 #![cfg_attr(feature = "unstable", feature(iter_advance_by, try_trait_v2))]
 

@@ -2,7 +2,7 @@ Iterator adapter without side-effects, possible better performance
 
 # Examples
 
-```
+```rust
 use std::sync::atomic::{AtomicU32, Ordering::*};
 use pure_iter::PureIterExt;
 
