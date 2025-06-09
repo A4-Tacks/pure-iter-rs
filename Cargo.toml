@@ -1,0 +1,19 @@
+[package]
+name = "pure-iter"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
+keywords = ["iterator", "pure", "map", "extension", "adapter"]
+categories = ["no-std", "no-std::no-alloc"]
+description = "Iterator adapter without side-effects, possible better performance"
+
+license = "MIT"
+repository = "https://github.com/A4-Tacks/pure-iter-rs"
+
+readme = "README.md"
+
+[features]
+unstable = []
+
+[dependencies]
